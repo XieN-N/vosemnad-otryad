@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	text-align: center;
+	background: linear-gradient()
+}
+h1 {
+	color:#000;
+	font-size:5em;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.vosem {
+	color:#FF0000;
+}
+
+.odin {
+	color:#FF0000;
+}
+.sun {
+	border-bottom: dashed 0.1em black;
+	color: black;
+	transition: 0.5s;
+}
+
+.sun:hover {
+	color: #EFFF24;
+	border-bottom: dashed 0.1em #EFFF24
+}
+
+.niz {
+	text-align: center;
+	text-decoration:line-through;
+	font-size: 2em;
+	transition: 0.5s;
+}
+
+.niz:hover {
+	text-align: center;
+	text-decoration:line-through;
+	font-size: 2.5em;
+}
