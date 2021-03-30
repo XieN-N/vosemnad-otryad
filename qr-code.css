@@ -2,7 +2,8 @@
 /* CSS Document */
 body {
 	text-align: center;
-	background: linear-gradient()
+	background: linear-gradient();
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 }
 h1 {
 	color:#000;
@@ -16,6 +17,7 @@ h1 {
 
 .odin {
 	color:#FF0000;
+	font-weight: 700;
 }
 .sun {
 	border-bottom: dashed 0.1em black;
@@ -39,4 +41,8 @@ h1 {
 	text-align: center;
 	text-decoration:line-through;
 	font-size: 2.5em;
+}
+.text {
+	text-align: center;
+	font-size: 6em;
 }
